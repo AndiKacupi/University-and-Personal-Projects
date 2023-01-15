@@ -1,0 +1,1 @@
+The purpose of this project is to create a system that analyzes and produces statistics about the energy consumption of households in USA. Using sensors, scientists created a database that contains billions of energy consumption measurements. We should create a system that can calculate the total or the average consumption of energy over a requested time period.
