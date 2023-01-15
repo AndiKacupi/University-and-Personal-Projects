@@ -1,0 +1,17 @@
+ program aadd
+{
+declare b;
+function id (in a, inout b){
+    declare a;
+    if (a<=4 or a<3) then {
+        a:=3-2;
+        print ( a );
+        exit
+    }
+}
+if ( x > 3 or v <> 54 and a <= 567 ) then {
+    s := 3 * 5 / 4 - 5;
+    call id ( in a , inout b);
+    input ( b )
+}
+}

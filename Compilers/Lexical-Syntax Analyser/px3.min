@@ -1,0 +1,21 @@
+program aadd
+{
+
+
+
+if (a>3) then {
+    a:=3
+    ; if (f<3) then {
+        b:=3 //sdasdasd
+        ; 
+        while (a<3) {
+            a:=23
+        }
+    }
+}
+
+
+
+
+   
+}

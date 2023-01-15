@@ -1,0 +1,1 @@
+The purpose of this project is to create a compiler for a language called minimal++ (created by our professor for the course’s needs) using python as our base language. We start by creating the lexical and syntax analyzer, then we proceed to the intermediate code generator and finally we create the target code which can be used to produce assembly code for MIPS processors.

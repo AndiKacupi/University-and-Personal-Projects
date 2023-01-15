@@ -1,0 +1,15 @@
+program aadd
+{
+
+declare b;
+
+declare b,d,f;
+
+{ b:=34
+; c:=4-1
+}
+
+
+
+   
+}

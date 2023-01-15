@@ -1,0 +1,38 @@
+program aadd
+{
+
+declare b;
+
+procedure id (in a,inout b){
+    declare a,a;
+    a:=3-2
+}
+
+function id (in a,inout b){
+    declare a,a;
+    
+    // asdasd
+    if (a<=4 or a<3) then {
+        a:=3-2
+    }
+}
+
+
+{
+a:=3+2
+; b:=2
+; b:=2+4/3
+; if(b<> 4 or h>=3) then {
+        a:=4
+    }
+}
+
+/*sasaas
+asasa
+asasa
+//
+saasaa
+*/
+
+
+}

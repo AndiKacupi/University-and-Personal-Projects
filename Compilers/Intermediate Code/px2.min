@@ -1,0 +1,26 @@
+program aadd
+{
+declare b;
+procedure id (in a,inout b){
+    declare a;
+    a:=3-2
+}
+function id (in a){
+    declare a;
+    if (a<=4 or a<3) then {
+        a:=3-2
+    }
+    else
+      a := 5 + 8
+}
+function id (in a,inout b){
+    declare a;
+    while (a<=4 or a<3)  {
+        a:=3-2
+    }
+}
+forcase
+  when ( x > 3 ) : a := 4 -3
+  when ( v >= 5 or x < 4 ) : a := 8-9*5
+  default : b := 0 - 5
+}
