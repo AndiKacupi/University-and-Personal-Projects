@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Human Resources</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+<link rel="stylesheet" href="/css/style.css"> <!-- link to css file -->
+<script src="/js/myscript.js"></script> <!-- link to js file -->
+
+<style>
+body,h1 {font-family: "Lato", sans-serif}
+body, html {height: 100%}
+</style>
+
+</head>
+<body>
+
+	<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <a th:href="@{/home}"> Home Page</a>
+	  <a th:href="@{/employees}"> All Employees</a>
+	  <a th:href="@{/employee/add}">Add Employee</a>
+	  <a th:href="@{/leaveReports}">All Reports</a>
+	  <a th:href="@{/leaveReport/add}">Add Leave Report</a>
+	  <a th:href="@{/salaries}">All Salaries</a>
+	  <a th:href="@{/salaries/add}">Add Salary</a>
+	  <a th:href = "@{/logout}">Log Out</a>
+    </div>
+	
+	<div class="bgimg w3-display-container w3-animate-opacity w3-text-black">
+	  <div class="w3-display-topright w3-padding-large w3-xlarge">
+	</div>
+     
+	<div class="w3-display-middle">
+	   <h1 class="w3-jumbo w3-animate-top">Human Resources Appliaction</h1>
+	   <hr class="w3-border-grey" style="margin:auto;width:40%">
+	   <p class="w3-large w3-center">Coming soon</p>
+	</div>
+  
+	 <div id="main">
+		<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+	 </div>
+  
+	  <div class="w3-display-bottomright w3-padding-large">
+	    Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3schools</a>
+	  </div>
+	</div>	
+</body>
+</html>
