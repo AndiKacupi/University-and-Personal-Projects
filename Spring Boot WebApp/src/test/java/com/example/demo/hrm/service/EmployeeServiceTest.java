@@ -80,7 +80,7 @@ public class EmployeeServiceTest {
 		Map<String, Long> correctStats = new HashMap<>();
 		correctStats.put("Sales", 1L);
 		correctStats.put("IT", 1L);
-		correctStats.put("-Total Number of Employees", 2L);
+		correctStats.put("_Total Number of Employees_", 2L);
 		
 		//when
 		Map<String, Long> actualStats = underTest.statisticsAboutEmployees();
