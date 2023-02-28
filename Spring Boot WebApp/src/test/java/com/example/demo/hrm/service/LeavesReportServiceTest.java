@@ -107,7 +107,7 @@ public class LeavesReportServiceTest {
 
 		Map<String, Integer> correctStats = new HashMap<>();
 		correctStats.put("February", 4);
-		correctStats.put("XX Total Leaves", 4);
+		correctStats.put("_Total Leaves_", 4);
 		
 		//when
 		Map<String, Integer> actualStats = underTest.statisticsAboutLeaves();
