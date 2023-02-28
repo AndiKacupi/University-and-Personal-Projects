@@ -166,7 +166,7 @@ public class SalaryServiceTest {
 		Map<String, Integer> correctStats = new HashMap<>();
 		correctStats.put("February", 2200);
 		correctStats.put("May", 2200);
-		correctStats.put("ZZ Total Salaries", 4400);
+		correctStats.put("_Total Salaries_", 4400);
 		
 		//when
 		Map<String, Integer> actualStats = underTest.statisticsAboutSalariesEachMonth();
