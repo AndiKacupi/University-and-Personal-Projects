@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Geo APIs</title>
+  </head>
+  <body>
+    <h1>This is the index file of the geo app</h1>
+    <h3>On this server, you can use the following geospatial APIs:</h3>
+    <ol>
+      <li>Bounding box</li>
+      <p>
+        example -->
+        <a
+          target="_blank"
+          href="http://127.0.0.1:5000/bounding-box?lon=21.836578&lonn=21.836894&lat=38.262491&latt=38.264281&epsg=4326"
+          >http://127.0.0.1:5000/bounding-box?lon=21.836578&lonn=21.836894&lat=38.262491&latt=38.264281&epsg=4326</a
+        >
+      </p>
+      <li>Geospatial function 2</li>
+      <p>example --> ...</p>
+      <li>Geospatial function 3</li>
+      <p>example --> ...</p>
+    </ol>
+    <div class="box-footer float-left">
+      <a class="btn btn-success" href="{{url_for('download')}}">Download</a>
+    </div>
+  </body>
+</html>
